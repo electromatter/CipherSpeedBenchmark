@@ -17,7 +17,6 @@ hs_err_pid*
 target/
 
 # Netbeans project
-nbproject/
 dist/
 nbdist/
 build/
