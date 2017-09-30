@@ -44,7 +44,7 @@ public class CipherSpeedBenchmark {
                     long count = 0;
                     byte[] data = new byte[blocksize];
 
-                    System.out.printf("Doing %s (%d bits) for %d on %d size blocks: ", mode, keysize, DURATION, blocksize);
+                    System.out.printf("Doing %s (%d bits) for %ds on %d size blocks: ", mode, keysize, DURATION, blocksize);
                     cipher.init(Cipher.ENCRYPT_MODE, key);
                     for (timer.resetTimer(); !timer.timerExpired(); count++) {
                         cipher.doFinal(data);
