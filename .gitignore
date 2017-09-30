@@ -1,0 +1,46 @@
+# vim swap files
+.*.sw[a-p]
+
+# Log files
+*.log
+
+# Crash reports
+hs_err_pid*
+
+# Packages and binaries
+*.class
+*.zip
+*.jar
+*.so
+
+# Maven
+target/
+
+# Netbeans project
+nbproject/
+dist/
+nbdist/
+build/
+nbbuild/
+
+# Eclipse
+.classpath
+.project
+.loadpath
+.settings/
+bin/
+tmp/
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+
+# intellij
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# OS X
+.DS_Store/
